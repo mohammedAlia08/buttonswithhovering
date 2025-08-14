@@ -1,0 +1,41 @@
+/* Level 1 */
+.menu {
+  margin: 1rem;
+  padding: 4px;
+  background: color p #253dc4;
+}
+
+.dot {
+  width: 1rem;
+  height: 1rem;
+  background-color: #424242;
+  border-radius: 50%; /* Circle */
+  margin-bottom: 4px;
+}
+
+.square {
+  width: 1rem;
+  height: 1rem;
+  background-color: #424242;
+  margin-bottom: 4px;
+}
+
+.rect {
+  width: 2.5rem;
+  height: 0.5rem;
+  background-color: #424242;
+  margin-bottom: 4px;
+}
+
+/* Level 2 */
+.dot:hover,
+.square:hover,
+.rect:hover {
+  background-color: rgba(240, 68, 171, 0.4);
+  cursor: pointer;
+}
+
+/* Level 3 */
+.menu > div:last-child {
+  margin-bottom: 0; /* No bottom margin on last element */
+}
